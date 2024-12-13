@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #1c258b;
+}
+nav{
+    padding: 1%;
+    height: 55px;
+    /* display: flex; */
+}
+.nav-images{
+    /* background-color: pink; */
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 10%;
+}
+.nav-images img{
+    width: 60px;
+}
+.sec-one{
+    
+}
+.sec-one h1{
+    padding: 2%;
+    font-size: 60px; /* Adjust as needed */
+    width: fit-content;
+    margin: auto;
+    color: white;
+}
+.about-con{
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+    padding: 4em;
+    color: #fff;
+}
+h1{
+    font-size: 65px;
+}
+p{
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+.btn-con{
+    margin-top: .5em;
+}
+
+.logo-again1{
+    width: 500px;
+    border-radius: 15px;
+}
+.address{
+    margin-top: 3%;
+    font-size: 23px;
+}
+.gallery {
+    display: flex;              
+    justify-content: center;    
+    gap: 20px;                   
+    padding: 20px;               
+    flex-wrap: wrap;             
+    /* background: rgb(233 67 69); */
+  }
+  .gallery-title {
+     font-size: 3em;
+     color: white;
+  }
+  
+  /* Image Styling */
+  .gallery img {
+    max-width: 100%;           
+    height: auto;               
+    border-radius: 10px;        
+  
+  }
+  .contact{
+    padding: 4em;
+    color: white;
+    text-align: center;
+  }
+  .buttons{
+    display: flex;
+    gap: 2em;
+    margin-left: 24em;
+  }
+  .btn1{
+    background-color: red;
+    font-size: 25px;
+    padding: 1%;
+    margin-top: 3%;
+    border-radius: 25px;
+  }
+  .btn2{
+    /* background-color: red; */
+    font-size: 25px;
+    padding: 1%;
+    margin-top: 3%;
+    border-radius: 25px;
+    border: 1px solid white;
+  }
+  footer h1{
+    font-size: 40px;
+    color: white;
+    width: fit-content;
+    margin: auto;
+  }
+  .footer-images{
+    width: fit-content;
+    margin: 3% auto;
+    display: flex;
+    gap: 10%;
+    
+  }
+  .footer-images img{
+    width: 60px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  @media(max-width: 1155px){
+    .buttons{
+        margin-left: 18em;
+    }
+  }
+
+
+
+  @media(max-width: 960px){
+    .about-con{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .about-img{
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 55px;
+        text-align: center;
+    }
+    .buttons{
+        margin-left: 4em;
+    }
+
+    .btns{
+        padding: 15px;
+    }
+  }
+
+  @media(max-width: 890px){
+    .logo-again1{
+        width: 300px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .buttons{
+        flex-direction: column;
+        margin-left: 2em;
+    }
+
+  }
+
+  @media(max-width: 414px){
+    .logo-again1{
+        width: 300px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .buttons{
+        flex-direction: column;
+        margin-left: 2em;
+    }
+  }
