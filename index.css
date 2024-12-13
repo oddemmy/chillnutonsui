@@ -55,6 +55,14 @@ p{
     width: 500px;
     border-radius: 15px;
 }
+.about-txt h1{
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .address{
     margin-top: 3%;
     font-size: 23px;
